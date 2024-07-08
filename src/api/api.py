@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # Initialize GenerativeAI model 
-GOOGLE_API_KEY = "AIzaSyAiL4wYQ0dxCmuY3AiHQAW9CkIt8OGiS0Q" 
+GOOGLE_API_KEY = "AIzaSyBent572hcPb4Dea4TbLxMjZHgtySa_Ypo" 
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(history=[])
