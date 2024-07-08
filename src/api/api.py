@@ -13,7 +13,7 @@ origins = [
     "http://localhost:5173",  # Vite dev server
     "http://localhost:5174",  # Add this
     "http://localhost:5175",
-    "https://nano-nanda.netlify.app/"
+    "https://nano-nanda.netlify.app"
 ]
 
 app.add_middleware(
