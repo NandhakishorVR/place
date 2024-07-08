@@ -9,7 +9,7 @@ const App = () => {
   const startExam = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/answer_my_qn",
+        "https://ani.bhagyaj.in/api/answer_my_qn",
         { data: "a" }
       );
       setQuestions(response.data.result);
